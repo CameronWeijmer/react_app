@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 1ms linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+Button{
+  width: 10%;
+  border-radius: 50%;
+}
+
+Button:hover{
+  background-color: #282c34;
+  color: white;
+}
+
+.myButton{
+  display: flex;
+  justify-content: center;
 }
