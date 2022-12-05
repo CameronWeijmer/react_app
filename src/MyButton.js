@@ -10,7 +10,6 @@ export default function MyButton() {
             alert("Only Button clicked. " + e.ctrlKey)
         }
     }
-
     return (
         <div>
             <div class={"myButton"}>
